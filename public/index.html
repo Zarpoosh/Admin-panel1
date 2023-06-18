@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/dist/output.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <title>Document</title>
+</head>
+<body
+    class="bg-gray-100 rounded-2xl h-screen overflow-hidden relative font-body"
+    dir="rtl"
+  >
+    <div class="flex item-start justify-between">
+      <!-- Navbar -->
+      <div class="h-screen hidden lg:block my-4 mr-4 shadow-lg relative w-80">
+        <div class="bg-white h-full rounded-2xl">
+          <div class="flex items-center justify-center pt-6">مینو</div>
+
+          <nav class="pt-6">
+            <div>
+              <a
+                href="#"
+                class="w-full font-thin text-blue-500 flex items-center p-4 my-2 transition-colors duration-200 justify-start bg-gradient-to-l from-white to to-blue-300 border-l-4 border-blue-500 dark:from-gray-700 dark:to-gray-800"
+              >
+                <span class="text-left">
+                  <svg
+                    width="20"
+                    height="20"
+                    fill="currentColor"
+                    viewBox="0 0 2048 1792"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M1070 1178l306-564h-654l-306 564h654zm722-282q0 182-71 348t-191 286-286 191-348 71-348-71-286-191-191-286-71-348 71-348 191-286 286-191 348-71 348 71 286 191 191 286 71 348z"
+                    ></path>
+                  </svg>
+                </span>
+                <span class="mx-4 font-normal text-lg"> داشبورد </span>
+              </a>
+
+              <a
+                href="./users.html"
+                class="w-full font-thin text-gray-500 flex items-center p-4 my-2 transition-colors duration-200 justify-start hover:text-blue-500"
+              >
+                <span class="text-left">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5"
+                    fill="currentColor"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"
+                    />
+                  </svg>
+                </span>
+                <span class="mx-4 font-normal text-normal"> کاربران </span>
+              </a>
+
+              <a
+                href="./form.html"
+                class="w-full font-thin text-gray-500 flex items-center p-4 my-2 transition-colors duration-200 justify-start hover:text-blue-500"
+              >
+                <span class="text-left">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      d="M3 4a1 1 0 011-1h12a1 1 0 011 1v2a1 1 0 01-1 1H4a1 1 0 01-1-1V4zM3 10a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H4a1 1 0 01-1-1v-6zM14 9a1 1 0 00-1 1v6a1 1 0 001 1h2a1 1 0 001-1v-6a1 1 0 00-1-1h-2z"
+                    />
+                  </svg>
+                </span>
+                <span class="mx-4 font-normal text-normal"> فرم ها </span>
+              </a>
+
+              <a
+                href="#"
+                class="w-full font-thin text-gray-500 flex items-center p-4 my-2 transition-colors duration-200 justify-start hover:text-blue-500"
+              >
+                <span class="text-left">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M3 3a1 1 0 011 1v12a1 1 0 11-2 0V4a1 1 0 011-1zm7.707 3.293a1 1 0 010 1.414L9.414 9H17a1 1 0 110 2H9.414l1.293 1.293a1 1 0 01-1.414 1.414l-3-3a1 1 0 010-1.414l3-3a1 1 0 011.414 0z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                </span>
+                <span class="mx-4 font-normal text-normal"> ورود</span>
+              </a>
+              <a
+                href="./register.html"
+                class="w-full font-thin text-gray-500 flex items-center p-4 my-2 transition-colors duration-200 justify-start hover:text-blue-500"
+              >
+                <span class="text-left">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      d="M8 9a3 3 0 100-6 3 3 0 000 6zM8 11a6 6 0 016 6H2a6 6 0 016-6zM16 7a1 1 0 10-2 0v1h-1a1 1 0 100 2h1v1a1 1 0 102 0v-1h1a1 1 0 100-2h-1V7z"
+                    />
+                  </svg>
+                </span>
+                <span class="mx-4 font-normal text-normal"> ثبت نام</span>
+              </a>
+            </div>
+          </nav>
+
+          <!-- Signature -->
+          <div class="absolute bottom-0 my-10">
+            <a
+              href="https://github.com/Zarpoosh"
+              class="text-gray-500 hover:text-gray-800 transition-colors duration-200 flex items-center py-2 px-8"
+            >
+              <svg
+                width="20"
+                xmlns="http://www.w3.org/2000/svg"
+                class="text-blue-500 h-5 w-5"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M6.267 3.455a3.066 3.066 0 001.745-.723 3.066 3.066 0 013.976 0 3.066 3.066 0 001.745.723 3.066 3.066 0 012.812 2.812c.051.643.304 1.254.723 1.745a3.066 3.066 0 010 3.976 3.066 3.066 0 00-.723 1.745 3.066 3.066 0 01-2.812 2.812 3.066 3.066 0 00-1.745.723 3.066 3.066 0 01-3.976 0 3.066 3.066 0 00-1.745-.723 3.066 3.066 0 01-2.812-2.812 3.066 3.066 0 00-.723-1.745 3.066 3.066 0 010-3.976 3.066 3.066 0 00.723-1.745 3.066 3.066 0 012.812-2.812zm7.44 5.252a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+              <span class="mx-4">پنل مینو</span>
+            </a>
+          </div>
+          <!-- End Signature -->
+        </div>
+      </div>
+      <!-- End Navbar -->
+
+      <div class="flex flex-col w-full pl-0 md:space-y-4">
+        <!-- Header -->
+        <header
+          class="w-full shadow-lg bg-white items-center h-16 rounded-2xl z-40"
+        >
+          <div
+            class="relative z-20 flex flex-col justify-center h-full px-3 mx-auto flex-center"
+          >
+            <div
+              class="relative items-center pl-1 flex w-full lg:max-w-68 sm:ml-0 sm:pr-2"
+            >
+              <div class="container relative left-0 z-50 flex w-3/4 h-auto">
+                <div
+                  class="relative flex items-center w-full lg:w-64 h-full group"
+                >
+                  <svg
+                    class="absolute right-0 z-20 hidden w-4 h-4 mr-4 text-gray-500 pointer-events-none fill-current group-hover:text-gray-400 sm:block"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 20 20"
+                  >
+                    <path
+                      d="M12.9 14.32a8 8 0 1 1 1.41-1.41l5.35 5.33-1.42 1.42-5.33-5.34zM8 14A6 6 0 1 0 8 2a6 6 0 0 0 0 12z"
+                    ></path>
+                  </svg>
+                  <input
+                    type="text"
+                    placeholder="جستو جو"
+                    class="block w-full py-1.5 pr-10 pl-4 leading-normal rounded-2xl focus:border-transparent focus:outline-none focus:ring-2 focus:ring-blue-500 ring-opacity-90 text-gray-400"
+                  />
+                </div>
+              </div>
+
+              <!-- picture -->
+              <div
+                class="relative p-1 flex items-center justify-end w-1/4 ml-5 mr-4 sm:mr-0 sm:right-auto"
+              >
+                <a href="#" class="block relative">
+                  <img
+                    src="../src/image/IMG_20220801_100950_144.jpg"
+                    class="mx-auto object-cover rounded-full h-10 w-10"
+                    alt="عکس مینو"
+                  />
+                </a>
+              </div>
+              <!--  end picture -->
+            </div>
+          </div>
+        </header>
+        <!-- End Header -->
+
+        <!-- Main aria -->
+        <div
+          class="overflow-auto h-screen pb-24 pr-2 pl-2 md:pt-0 md:pr-0 md:p;-0"
+        >
+          <!-- Section -->
+          <section class="text-gray-500 font-body">
+            <div class="container px-5 py-24 mx-auto">
+              <div class="flex flex-wrap m-4 text-center">
+                <div class="p-4 md:w-1/4 sm:w-1/2 w-full ">
+                  <div class="bg-blue-500 px-4 py-6 rounded-lg cursor-pointer">
+                    <svg
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      class="text-white w-12 h-12 mb-3 inline-block"
+                      viewBox="0 0 24 24"
+                    >
+                      <path d="M8 17l4 4 4-4m-4-5v9"></path>
+                      <path
+                        d="M20.88 18.09A5 5 0 0018 9h-1.26A8 8 0 103 16.29"
+                      ></path>
+                    </svg>
+                    <h2 class="font-medium text-3xl text-white">۲۷۰۰</h2>
+                    <p class="text-white leading-relaxed">دانلود</p>
+                  </div>
+                </div>
+                <div class="p-4 md:w-1/4 sm:w-1/2 w-full ">
+                  <div class="bg-green-500 px-4 py-6 rounded-lg cursor-pointer">
+                    <svg
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      class="text-white w-12 h-12 mb-3 inline-block"
+                      viewBox="0 0 24 24"
+                    >
+                      <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"></path>
+                      <circle cx="9" cy="7" r="4"></circle>
+                      <path
+                        d="M23 21v-2a4 4 0 00-3-3.87m-4-12a4 4 0 010 7.75"
+                      ></path>
+                    </svg>
+                    <h2 class="font-medium text-3xl text-white">۱۳۰۰</h2>
+                    <p class="text-white leading-relaxed">کاربران</p>
+                  </div>
+                </div>
+                <div class="p-4 md:w-1/4 sm:w-1/2 w-full ">
+                  <div class="bg-yellow-500 px-4 py-6 cursor-pointer rounded-lg">
+                    <svg
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      class="text-white w-12 h-12 mb-3 inline-block"
+                      viewBox="0 0 24 24"
+                    >
+                      <path d="M3 18v-6a9 9 0 0118 0v6"></path>
+                      <path
+                        d="M21 19a2 2 0 01-2 2h-1a2 2 0 01-2-2v-3a2 2 0 012-2h3zM3 19a2 2 0 002 2h1a2 2 0 002-2v-3a2 2 0 00-2-2H3z"
+                      ></path>
+                    </svg>
+                    <h2 class="font-medium text-3xl text-white">۲۷۰۰</h2>
+                    <p class="text-white leading-relaxed">فایل ها</p>
+                  </div>
+                </div>
+                <div class="p-4 md:w-1/4 sm:w-1/2 w-full ">
+                  <div class="bg-violet-500 px-4 py-6 rounded-lg cursor-pointer">
+                    <svg
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      class="text-white w-12 h-12 mb-3 inline-block"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"
+                      ></path>
+                    </svg>
+                    <h2 class="text-white font-medium text-3xl">۸۵</h2>
+                    <p class="text-white leading-relaxed">مکان ها</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- End Section -->
+          <div class="xl:1/2 lg:w-3/4 md:w-3/4 sm:3/4 w-full mx-auto text-center">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="currentColor"
+              class="inline-block w-8 h-8 text-gray-400 mb-8"
+              viewBox="0 0 975.036 975.036"
+            >
+              <path
+                d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"
+              ></path>
+            </svg>
+            <p class="leading-relaxed text-lg p-4 text-justify">
+              لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با
+              استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله
+              در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد
+              نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد،
+              کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان
+              جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای
+              طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان
+              فارسی ایجاد کرد، در این صورت می توان امید داشت که تمام و دشواری
+              موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان رسد و زمان مورد
+              نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگوی سوالات پیوسته اهل
+              دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
+            </p>
+            <span
+              class="inline-block h1 w-10 rounded-lg bg-purple-500 mt-8 mb-6"
+            ></span>
+            <h2 class="text-gray-900 font-medium tracking-wider text-sm mb-1">
+              مینو زرپوش
+            </h2>
+            <p class="text-gray-500">برنامه نویس ، توسعه دهنده و طراح وب</p>
+          </div>
+        </div>
+        <!-- End Main aria -->
+      </div>
+    </div>
+  </body>
+</html>

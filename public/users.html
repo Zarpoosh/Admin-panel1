@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/dist/output.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <title>Document</title>
+  </head>
+  <body
+    class="bg-gray-100 rounded-2xl h-screen overflow-hidden relative font-body"
+    dir="rtl"
+  >
+    <div class="flex item-start justify-between">
+      <!-- Navbar -->
+      <div class="h-screen hidden lg:block my-4 mr-4 shadow-lg relative w-80">
+        <div class="bg-white h-full rounded-2xl">
+          <div class="flex items-center justify-center pt-6">مینو</div>
+
+          <nav class="pt-6">
+            <div>
+              <a
+                href="./index.html"
+                class="w-full font-thin text-gray-500 flex items-center p-4 my-2 transition-colors duration-200 justify-start hover:text-blue-500"
+              >
+                <span class="text-left">
+                  <svg
+                    width="20"
+                    height="20"
+                    fill="currentColor"
+                    viewBox="0 0 2048 1792"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M1070 1178l306-564h-654l-306 564h654zm722-282q0 182-71 348t-191 286-286 191-348 71-348-71-286-191-191-286-71-348 71-348 191-286 286-191 348-71 348 71 286 191 191 286 71 348z"
+                    ></path>
+                  </svg>
+                </span>
+                <span class="mx-4 font-normal text-normal"> داشبورد </span>
+              </a>
+
+              <a
+                href="./users.html"
+                class="w-full font-thin text-blue-500 flex items-center p-4 my-2 transition-colors duration-200 justify-start bg-gradient-to-l from-white to to-blue-300 border-l-4 border-blue-500 dark:from-gray-700 dark:to-gray-800"
+              >
+                <span class="text-left">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5"
+                    fill="currentColor"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"
+                    />
+                  </svg>
+                </span>
+                <span class="mx-4 font-normal text-lg"> کاربران </span>
+              </a>
+
+              <a
+                href="./form.html"
+                class="w-full font-thin text-gray-500 flex items-center p-4 my-2 transition-colors duration-200 justify-start hover:text-blue-500"
+              >
+                <span class="text-left">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      d="M3 4a1 1 0 011-1h12a1 1 0 011 1v2a1 1 0 01-1 1H4a1 1 0 01-1-1V4zM3 10a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H4a1 1 0 01-1-1v-6zM14 9a1 1 0 00-1 1v6a1 1 0 001 1h2a1 1 0 001-1v-6a1 1 0 00-1-1h-2z"
+                    />
+                  </svg>
+                </span>
+                <span class="mx-4 font-normal text-normal"> فرم ها </span>
+              </a>
+
+              <a
+                href="./login.html"
+                class="w-full font-thin text-gray-500 flex items-center p-4 my-2 transition-colors duration-200 justify-start hover:text-blue-500"
+              >
+                <span class="text-left">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M3 3a1 1 0 011 1v12a1 1 0 11-2 0V4a1 1 0 011-1zm7.707 3.293a1 1 0 010 1.414L9.414 9H17a1 1 0 110 2H9.414l1.293 1.293a1 1 0 01-1.414 1.414l-3-3a1 1 0 010-1.414l3-3a1 1 0 011.414 0z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                </span>
+                <span class="mx-4 font-normal text-normal"> ورود</span>
+              </a>
+              <a
+                href="./register.html"
+                class="w-full font-thin text-gray-500 flex items-center p-4 my-2 transition-colors duration-200 justify-start hover:text-blue-500"
+              >
+                <span class="text-left">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      d="M8 9a3 3 0 100-6 3 3 0 000 6zM8 11a6 6 0 016 6H2a6 6 0 016-6zM16 7a1 1 0 10-2 0v1h-1a1 1 0 100 2h1v1a1 1 0 102 0v-1h1a1 1 0 100-2h-1V7z"
+                    />
+                  </svg>
+                </span>
+                <span class="mx-4 font-normal text-normal"> ثبت نام</span>
+              </a>
+            </div>
+          </nav>
+
+          <!-- Signature -->
+          <div class="absolute bottom-0 my-10">
+            <a
+              href="https://github.com/Zarpoosh"
+              class="text-gray-500 hover:text-gray-800 transition-colors duration-200 flex items-center py-2 px-8"
+            >
+              <svg
+                width="20"
+                xmlns="http://www.w3.org/2000/svg"
+                class="text-blue-500 h-5 w-5"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M6.267 3.455a3.066 3.066 0 001.745-.723 3.066 3.066 0 013.976 0 3.066 3.066 0 001.745.723 3.066 3.066 0 012.812 2.812c.051.643.304 1.254.723 1.745a3.066 3.066 0 010 3.976 3.066 3.066 0 00-.723 1.745 3.066 3.066 0 01-2.812 2.812 3.066 3.066 0 00-1.745.723 3.066 3.066 0 01-3.976 0 3.066 3.066 0 00-1.745-.723 3.066 3.066 0 01-2.812-2.812 3.066 3.066 0 00-.723-1.745 3.066 3.066 0 010-3.976 3.066 3.066 0 00.723-1.745 3.066 3.066 0 012.812-2.812zm7.44 5.252a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+              <span class="mx-4">پنل مینو</span>
+            </a>
+          </div>
+          <!-- End Signature -->
+        </div>
+      </div>
+      <!-- End Navbar -->
+
+      <div class="flex flex-col w-full pl-0 md:space-y-4">
+        <!-- Header -->
+        <header
+          class="w-full shadow-lg bg-white items-center h-16 rounded-2xl z-40"
+        >
+          <div
+            class="relative z-20 flex flex-col justify-center h-full px-3 mx-auto flex-center"
+          >
+            <div
+              class="relative items-center pl-1 flex w-full lg:max-w-68 sm:ml-0 sm:pr-2"
+            >
+              <div class="container relative left-0 z-50 flex w-3/4 h-auto">
+                <div
+                  class="relative flex items-center w-full lg:w-64 h-full group"
+                >
+                  <svg
+                    class="absolute right-0 z-20 hidden w-4 h-4 mr-4 text-gray-500 pointer-events-none fill-current group-hover:text-gray-400 sm:block"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 20 20"
+                  >
+                    <path
+                      d="M12.9 14.32a8 8 0 1 1 1.41-1.41l5.35 5.33-1.42 1.42-5.33-5.34zM8 14A6 6 0 1 0 8 2a6 6 0 0 0 0 12z"
+                    ></path>
+                  </svg>
+                  <input
+                    type="text"
+                    placeholder="جستو جو"
+                    class="block w-full py-1.5 pr-10 pl-4 leading-normal rounded-2xl focus:border-transparent focus:outline-none focus:ring-2 focus:ring-blue-500 ring-opacity-90 text-gray-400"
+                  />
+                </div>
+              </div>
+
+              <!-- picture -->
+              <div
+                class="relative p-1 flex items-center justify-end w-1/4 ml-5 mr-4 sm:mr-0 sm:right-auto"
+              >
+                <a href="#" class="block relative">
+                  <img
+                    src="../src/image/IMG_20220801_100950_144.jpg"
+                    class="mx-auto object-cover rounded-full h-10 w-10"
+                    alt="عکس مینو"
+                  />
+                </a>
+              </div>
+              <!--  end picture -->
+            </div>
+          </div>
+        </header>
+        <!-- End Header -->
+
+        <!-- Main aria -->
+        <div
+          class="overflow-auto h-screen pb-24 pr-2 pl-2 md:pt-0 md:pr-0 md:p;-0"
+        >
+          <div class="flex flex-col flex-wrap sm:flex-row">
+            <div class="container mx-auto py-4 sm:py-8 max-w-8xl">
+              <div class="py-8">
+                <div class="flex flex-row mb-1 sm:mb-0 justify-between w-full">
+                  <h2 class="text-2xl leading-tight">کاربران</h2>
+                  <div class="text-end">
+                    <form
+                      class="flex flex-col md:flex-row w-3/4 md:w-full max-w-sm md:space-x-3 space-y-3 md:space-y-0 justify-center"
+                    >
+                      <div class="relative">
+                        <input
+                          type="text"
+                          id='"form-subscribe-Filter'
+                          class="rounded-lg border-transparent flex-1 appearance-none border border-gray-300 w-full py-2 px-4 bg-white text-gray-700 placeholder-gray-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent"
+                          placeholder="نام"
+                        />
+                      </div>
+                      <button
+                        class="flex-shrink-0 px-4 py-2 text-base font-semibold text-white bg-purple-600 rounded-lg shadow-md hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-2 focus:ring-offset-purple-200"
+                        type="submit"
+                      >
+                        فیلتر
+                      </button>
+                    </form>
+                  </div>
+                </div>
+                <!-- Table -->
+                <div class="mx-4 sm:mx-8 px-8 py-4 overflow-x-auto">
+                  <div
+                    class="inline-block min-w-full shadow rounded-lg overflow-hidden"
+                  >
+                    <table class="min-w-full leading-normal">
+                      <thead>
+                        <tr>
+                          <th
+                            class="px-5 py-3 bg-white border-gray-200 text-gray-800 text-right text-sm font-normalrma"
+                            scope="col"
+                          >
+                            کاربران
+                          </th>
+                          <th
+                            class="px-5 py-3 bg-white border-gray-200 text-gray-800 text-right text-sm font-normalrma"
+                            scope="col"
+                          >
+                            نقش
+                          </th>
+                          <th
+                            class="px-5 py-3 bg-white border-gray-200 text-gray-800 text-right text-sm font-normalrma"
+                            scope="col"
+                          >
+                            ایجاد شده در
+                          </th>
+                          <th
+                            class="px-5 py-3 bg-white border-gray-200 text-gray-800 text-right text-sm font-normalrma"
+                            scope="col"
+                          >
+                            وضعیت
+                          </th>
+                          <th
+                            class="px-5 py-3 bg-white border-gray-200 text-gray-800 text-right text-sm font-normalrma"
+                            scope="col"
+                          >
+                            اقدامات
+                          </th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td
+                            class="px-5 py-5 boredr-b border-gray-200 bg-white text-sm"
+                          >
+                            <div class="flex items-center">
+                              <div class="flex-shrink-0">
+                                <a href="#" class="block relative">
+                                  <img
+                                    src="../src/image/IMG_20220801_100950_144.jpg"
+                                    alt="عکس کاربر"
+                                    class="mx-auto object-cover rounded-full h-10 w-10"
+                                  />
+                                </a>
+                              </div>
+                              <div class="mr-3">
+                                <p class="text-gray-900 whitespace-nowrap">
+                                  مینو زرپوش
+                                </p>
+                              </div>
+                            </div>
+                          </td>
+                          <td
+                            class="px-5 py-5 boredr-b border-gray-200 bg-white text-sm"
+                          >
+                            <p class="text-gray-900 whitespace-nowrap">
+                              توسعه دهنده وب
+                            </p>
+                          </td>
+                          <td
+                            class="px-5 py-5 boredr-b border-gray-200 bg-white text-sm"
+                          >
+                            <p class="text-gray-900 whitespace-nowrap">
+                              ایجاد شده در ۲۷ / ۱ / ۱۴۰۲
+                            </p>
+                          </td>
+                          <td
+                            class="px-5 py-5 boredr-b border-gray-200 bg-white text-sm"
+                          >
+                            <span
+                              class="relative inline-block px-3 py-1 text-green-700 leading-tight"
+                            >
+                              <span
+                                aria-hidden="true"
+                                class="absolute inset-0 bg-green-500 opacity-50 rounded-full"
+                              ></span>
+                              <span class="relative">فعال</span>
+                            </span>
+                          </td>
+                          <td
+                            class="px-5 py-5 boredr-b border-gray-200 bg-white text-sm"
+                          >
+                            <div class="flex">
+                              <a href="#" title="ویرایش">
+                                <svg
+                                  xmlns="http://www.w3.org/2000/svg"
+                                  height="24px"
+                                  viewBox="0 0 24 24"
+                                  width="24px"
+                                  fill="#F9A602"
+                                >
+                                  <path d="M0 0h24v24H0V0z" fill="none" />
+                                  <path
+                                    d="M14.06 9.02l.92.92L5.92 19H5v-.92l9.06-9.06M17.66 3c-.25 0-.51.1-.7.29l-1.83 1.83 3.75 3.75 1.83-1.83c.39-.39.39-1.02 0-1.41l-2.34-2.34c-.2-.2-.45-.29-.71-.29zm-3.6 3.19L3 17.25V21h3.75L17.81 9.94l-3.75-3.75z"
+                                  />
+                                </svg>
+                              </a>
+                              <a href="#" class="mr-3" title="حذف">
+                                <svg
+                                  xmlns="http://www.w3.org/2000/svg"
+                                  height="24px"
+                                  viewBox="0 0 24 24"
+                                  width="24px"
+                                  fill="#FF0000"
+                                >
+                                  <path d="M0 0h24v24H0V0z" fill="none" />
+                                  <path
+                                    d="M16 9v10H8V9h8m-1.5-6h-5l-1 1H5v2h14V4h-3.5l-1-1zM18 7H6v12c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7z"
+                                  />
+                                </svg>
+                              </a>
+                            </div>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+
+                    <!-- Paginate-->
+                    <div
+                      class="px-5 bg-white flex flex-col py-5 xs:flex-row items-center justify-betweenti"
+                    >
+                      <div class="flex items-center">
+                        <button
+                          class="w-full  p-4 border text-base rounded-r-xl text-gray-600 bg-white hover:bg-gray-100"
+                          type="button"
+                        >
+                          <svg
+                            width="9"
+                            fill="currentColor"
+                            height="8"
+                            class=""
+                            viewBox="0 0 1792 1792"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M1363 877l-742 742q-19 19-45 19t-45-19l-166-166q-19-19-19-45t19-45l531-531-531-531q-19-19-19-45t19-45l166-166q19-19 45-19t45 19l742 742q19 19 19 45t-19 45z"
+                            ></path>
+                          </svg>
+                        </button>
+                        <button
+                          type="button"
+                          class="w-full px-4 py-2 border-t border-b text-base text-indigo-500 bg-white hover:bg-gray-100"
+                        >
+                          ۱
+                        </button>
+                        <button
+                          type="button"
+                          class="w-full px-4 py-2 border-t border-b text-base text-indigo-500 bg-white hover:bg-gray-100"
+                        >
+                          ۲
+                        </button>
+                        <button
+                          type="button"
+                          class="w-full px-4 py-2 border-t border-b text-base text-indigo-500 bg-white hover:bg-gray-100"
+                        >
+                          ۳
+                        </button>
+                        <button
+                          type="button"
+                          class="w-full px-4 py-2 border-t border-b text-base text-indigo-500 bg-white hover:bg-gray-100"
+                        >
+                          ۴
+                        </button>
+                        <button
+                          class="w-full p-4 border text-base rounded-l-xl text-gray-600 bg-white hover:bg-gray-100"
+                          type="button"
+                        >
+                          <svg
+                            width="9"
+                            fill="currentColor"
+                            height="8"
+                            class=""
+                            viewBox="0 0 1792 1792"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M1427 301l-531 531 531 531q19 19 19 45t-19 45l-166 166q-19 19-45 19t-45-19l-742-742q-19-19-19-45t19-45l742-742q19-19 45-19t45 19l166 166q19 19 19 45t-19 45z"
+                            ></path>
+                          </svg>
+                        </button>
+                      </div>
+                    </div>
+                    <!-- End  Paginate-->
+                  </div>
+                </div>
+                <!-- End Table -->
+                <div class=""></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End Main aria -->
+      </div>
+    </div>
+  </body>
+</html>

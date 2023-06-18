@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/dist/output.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <title>Document</title>
+  </head>
+  <body
+    class="bg-gray-100 rounded-2xl h-screen overflow-hidden relative font-body"
+    dir="rtl"
+  >
+    <div class="flex item-start justify-between">
+      <!-- Navbar -->
+      <div class="h-screen hidden lg:block my-4 mr-4 shadow-lg relative w-80">
+        <div class="bg-white h-full rounded-2xl">
+          <div class="flex items-center justify-center pt-6">مینو</div>
+
+          <nav class="pt-6">
+            <div>
+              <a
+                href="./index.html"
+                class="w-full font-thin text-gray-500 flex items-center p-4 my-2 transition-colors duration-200 justify-start hover:text-blue-500"
+              >
+                <span class="text-left">
+                  <svg
+                    width="20"
+                    height="20"
+                    fill="currentColor"
+                    viewBox="0 0 2048 1792"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M1070 1178l306-564h-654l-306 564h654zm722-282q0 182-71 348t-191 286-286 191-348 71-348-71-286-191-191-286-71-348 71-348 191-286 286-191 348-71 348 71 286 191 191 286 71 348z"
+                    ></path>
+                  </svg>
+                </span>
+                <span class="mx-4 font-normal text-normal"> داشبورد </span>
+              </a>
+
+              <a
+                href="./users.html"
+                class="w-full font-thin text-gray-500 flex items-center p-4 my-2 transition-colors duration-200 justify-start hover:text-blue-500"
+              >
+                <span class="text-left">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5"
+                    fill="currentColor"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"
+                    />
+                  </svg>
+                </span>
+                <span class="mx-4 font-normal text-normal"> کاربران </span>
+              </a>
+
+              <a
+                href="./form.html"
+                class="w-full font-thin text-blue-500 flex items-center p-4 my-2 transition-colors duration-200 justify-start bg-gradient-to-l from-white to to-blue-300 border-l-4 border-blue-500 dark:from-gray-700 dark:to-gray-800"
+              >
+                <span class="text-left">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      d="M3 4a1 1 0 011-1h12a1 1 0 011 1v2a1 1 0 01-1 1H4a1 1 0 01-1-1V4zM3 10a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H4a1 1 0 01-1-1v-6zM14 9a1 1 0 00-1 1v6a1 1 0 001 1h2a1 1 0 001-1v-6a1 1 0 00-1-1h-2z"
+                    />
+                  </svg>
+                </span>
+                <span class="mx-4 font-normal text-lg"> فرم ها </span>
+              </a>
+
+              <a
+                href="./login.html"
+                class="w-full font-thin text-gray-500 flex items-center p-4 my-2 transition-colors duration-200 justify-start hover:text-blue-500"
+              >
+                <span class="text-left">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M3 3a1 1 0 011 1v12a1 1 0 11-2 0V4a1 1 0 011-1zm7.707 3.293a1 1 0 010 1.414L9.414 9H17a1 1 0 110 2H9.414l1.293 1.293a1 1 0 01-1.414 1.414l-3-3a1 1 0 010-1.414l3-3a1 1 0 011.414 0z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                </span>
+                <span class="mx-4 font-normal text-normal"> ورود</span>
+              </a>
+              <a
+                href="./register.html"
+                class="w-full font-thin text-gray-500 flex items-center p-4 my-2 transition-colors duration-200 justify-start hover:text-blue-500"
+              >
+                <span class="text-left">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      d="M8 9a3 3 0 100-6 3 3 0 000 6zM8 11a6 6 0 016 6H2a6 6 0 016-6zM16 7a1 1 0 10-2 0v1h-1a1 1 0 100 2h1v1a1 1 0 102 0v-1h1a1 1 0 100-2h-1V7z"
+                    />
+                  </svg>
+                </span>
+                <span class="mx-4 font-normal text-normal"> ثبت نام</span>
+              </a>
+            </div>
+          </nav>
+
+          <!-- Signature -->
+          <div class="absolute bottom-0 my-10">
+            <a
+              href="https://github.com/Zarpoosh"
+              class="text-gray-500 hover:text-gray-800 transition-colors duration-200 flex items-center py-2 px-8"
+            >
+              <svg
+                width="20"
+                xmlns="http://www.w3.org/2000/svg"
+                class="text-blue-500 h-5 w-5"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M6.267 3.455a3.066 3.066 0 001.745-.723 3.066 3.066 0 013.976 0 3.066 3.066 0 001.745.723 3.066 3.066 0 012.812 2.812c.051.643.304 1.254.723 1.745a3.066 3.066 0 010 3.976 3.066 3.066 0 00-.723 1.745 3.066 3.066 0 01-2.812 2.812 3.066 3.066 0 00-1.745.723 3.066 3.066 0 01-3.976 0 3.066 3.066 0 00-1.745-.723 3.066 3.066 0 01-2.812-2.812 3.066 3.066 0 00-.723-1.745 3.066 3.066 0 010-3.976 3.066 3.066 0 00.723-1.745 3.066 3.066 0 012.812-2.812zm7.44 5.252a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+              <span class="mx-4">پنل مینو</span>
+            </a>
+          </div>
+          <!-- End Signature -->
+        </div>
+      </div>
+      <!-- End Navbar -->
+
+      <div class="flex flex-col w-full pl-0 md:space-y-4">
+        <!-- Header -->
+        <header
+          class="w-full shadow-lg bg-white items-center h-16 rounded-2xl z-40"
+        >
+          <div
+            class="relative z-20 flex flex-col justify-center h-full px-3 mx-auto flex-center"
+          >
+            <div
+              class="relative items-center pl-1 flex w-full lg:max-w-68 sm:ml-0 sm:pr-2"
+            >
+              <div class="container relative left-0 z-50 flex w-3/4 h-auto">
+                <div
+                  class="relative flex items-center w-full lg:w-64 h-full group"
+                >
+                  <svg
+                    class="absolute right-0 z-20 hidden w-4 h-4 mr-4 text-gray-500 pointer-events-none fill-current group-hover:text-gray-400 sm:block"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 20 20"
+                  >
+                    <path
+                      d="M12.9 14.32a8 8 0 1 1 1.41-1.41l5.35 5.33-1.42 1.42-5.33-5.34zM8 14A6 6 0 1 0 8 2a6 6 0 0 0 0 12z"
+                    ></path>
+                  </svg>
+                  <input
+                    type="text"
+                    placeholder="جستو جو"
+                    class="block w-full py-1.5 pr-10 pl-4 leading-normal rounded-2xl focus:border-transparent focus:outline-none focus:ring-2 focus:ring-blue-500 ring-opacity-90 text-gray-400"
+                  />
+                </div>
+              </div>
+
+              <!-- picture -->
+              <div
+                class="relative p-1 flex items-center justify-end w-1/4 ml-5 mr-4 sm:mr-0 sm:right-auto"
+              >
+                <a href="#" class="block relative">
+                  <img
+                    src="../src/image/IMG_20220801_100950_144.jpg"
+                    class="mx-auto object-cover rounded-full h-10 w-10"
+                    alt="عکس مینو"
+                  />
+                </a>
+              </div>
+              <!--  end picture -->
+            </div>
+          </div>
+        </header>
+        <!-- End Header -->
+
+        <!-- Main aria -->
+        <div
+          class="overflow-auto h-screen pb-24 pr-2 pl-2 md:pt-0 md:pr-0 md:p;-0"
+        >
+          <div class="flex flex-col flex-wrap sm:flex-row">
+            <div class="container mx-auto py-4 sm:py-8 max-w-8xl">
+              <div class="py-8">
+                <div class="flex flex-row mb-1 sm:mb-0 justify-between w-full">
+                  <h2 class="text-2xl leading-tight">فرم ها</h2>
+                </div>
+                <!-- Form -->
+                <div
+                  class="bg-white rounded-lg shadow sm:max-w-md sm:w-full sm:mx-auto sm:overflow-hidden"
+                >
+                  <div class="px-4 py-8 sm:px-10">
+                    <div class="relative mt-6">
+                      <div class="absolute inset-0 flex items-center">
+                        <di class="w-full border-t-gray-300"></di>
+                      </div>
+                      <div
+                        class="relative flex justify-center text-sm leading-5"
+                      >
+                        <span class="px-2 text-gray-500 bg-white"
+                          >فرم ثبت کاربر</span
+                        >
+                      </div>
+                    </div>
+
+                    <div class="mt-6">
+                      <div class="w-full space-y-10">
+                        <!-- Inputs -->
+                        <div class="w-full">
+                          <div class="relative">
+                            <label for="email" class="text-gray-700"
+                              >ایمیل
+                              <span class="text-red-500 required-dot">*</span>
+                            </label>
+                            <input
+                              name="email"
+                              id="email"
+                              type="email"
+                              class="ring-red-500 ring-2 rounded-lg border-transparent flex-1 appearance-none border-gray-300 w-full py-2 px-4 bg-white text-gray-700 placeholder-gray-300 text-base focus:ring-2 focus:outline-none focus:ring-indigo-600 focus:border-transparent"
+                              placeholder="ایمیل خود را وارد کنید"
+                            />
+                            <p class="absolute text-red-500 text-sm -bottom-6">
+                              ایمیل شما نامعتبر است
+                            </p>
+                          </div>
+                        </div>
+                        <div class="w-full">
+                          <div class="relative">
+                            <label for="name" class="text-gray-700"
+                              >نام
+                              <span class="text-red-500 required-dot">*</span>
+                            </label>
+                            <input
+                              name="name"
+                              id="name"
+                              type="text"
+                              class="ring-red-500 ring-2 rounded-lg border-transparent flex-1 appearance-none border-gray-300 w-full py-2 px-4 bg-white text-gray-700 placeholder-gray-300 text-base focus:ring-2 focus:outline-none focus:ring-indigo-600 focus:border-transparent"
+                              placeholder="نام خود را وارد کنید"
+                            />
+                            <p class="absolute text-red-500 text-sm -bottom-6">
+                              لطفا نام خود را وارد کنید
+                            </p>
+                          </div>
+                        </div>
+                        <div class="w-full">
+                          <div class="relative">
+                            <label for="name" class="text-gray-700"
+                              >نام خانوادگی
+                              <span class="text-red-500 required-dot">*</span>
+                            </label>
+                            <input
+                              name="lastname"
+                              id="lastname"
+                              type="text"
+                              class="ring-red-500 ring-2 rounded-lg border-transparent flex-1 appearance-none border-gray-300 w-full py-2 px-4 bg-white text-gray-700 placeholder-gray-300 text-base focus:ring-2 focus:outline-none focus:ring-indigo-600 focus:border-transparent"
+                              placeholder="نام خود را وارد کنید"
+                            />
+                            <p class="absolute text-red-500 text-sm -bottom-6">
+                              لطفا نام خانوادگی خود را وارد کنید
+                            </p>
+                          </div>
+                        </div>
+
+                        <div>
+                          <span class="block w-full rounded-md shadow-sm">
+                            <button
+                              type="button"
+                              class="py-2 px-4 bg-indigo-600 hover:bg-indigo-700 focus:ring-indigo-500 focus:ring-offset-indigo-200 text-white w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2 rounded-lg"
+                            >
+                              ثبت
+                            </button>
+                          </span>
+                        </div>
+                        <!-- End Inputs -->
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- End Form -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End Main aria -->
+      </div>
+    </div>
+  </body>
+</html>
